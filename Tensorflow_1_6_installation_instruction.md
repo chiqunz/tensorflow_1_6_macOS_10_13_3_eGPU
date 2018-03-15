@@ -326,9 +326,11 @@ totalMemory: 16.00GiB freeMemory: 15.84GiB
 
 I get CUDA_ERROR_OUT_OF_MEMORY , but the code will still keep running. Just ignore it.
 
+> ** If you get a DeprecationWarning complaining inspect.getargspec(), follow the PR [here](https://github.com/tensorflow/tensorflow/pull/17029)
+
 ## Authors
 
-* **Chiqun Zhang** - *Initial work* - [chiqunz](https://github.com/chiqunz)
+* **Chiqun Zhang** [chiqunz](https://github.com/chiqunz)
 
 ## Acknowledgments
 
